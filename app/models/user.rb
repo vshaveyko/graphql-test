@@ -11,8 +11,8 @@ class User < ActiveRecord::Base
 
   has_many :posts
 
-  has_many :post_comments, through: :posts,
-                           source: :comments
+  has_many :post_comments, class_name: 'Comment', through: :posts,
+                                                  source: :comments
 
   has_many :comments
 
