@@ -14,8 +14,8 @@ gem 'omniauth-github'
 #
 # GRAPHQL
 gem 'graphql'
-gem "graphiql-rails"
-gem 'has_scope'
+# gem "graphiql-rails"
+gem 'graphql-query-resolver'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'

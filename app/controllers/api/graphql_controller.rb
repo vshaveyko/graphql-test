@@ -40,7 +40,7 @@ class Api::GraphqlController < ApplicationController
   end
 
   def current_user
-    User.first
+    User.last
   end
 
 end
