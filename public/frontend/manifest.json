@@ -1,0 +1,5 @@
+{
+  "app.js": "http://localhost:4000/frontend/app.js",
+  "manifest.js": "http://localhost:4000/frontend/manifest.js",
+  "polyfills.js": "http://localhost:4000/frontend/polyfills.js"
+}
